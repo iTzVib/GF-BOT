@@ -7,7 +7,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.command('start', ctx => {
     console.log(ctx.from)
-    bot.telegram.sendMessage(ctx.chat.id, `hello there! I'm ${process.env.BOT_NAME}. Mechine Learning AI ChatBOT. My owner is ${process.env.OWNER_NAME}.`, {
+    bot.telegram.sendMessage(ctx.chat.id, `hello there! I'm ${process.env.BOT_NAME}. an online ai. My owner is ${process.env.OWNER_NAME}.`, {
     })
 })
 
